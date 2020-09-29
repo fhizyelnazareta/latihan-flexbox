@@ -105,7 +105,6 @@ body{
 .con-empat{
     width: 800px;
     margin: 50px auto;
-    display: flex;
 }
 
 .card{
@@ -116,18 +115,40 @@ body{
     margin: 10px;
 }
 
-.card.besar{
-    transform: scale(1.12);
-}
 
 .card .header{
-    height: 150px;
+    height: 450px;
     background-color: #666;
 }
 
 .card .content{
     text-align: center;
     padding-bottom: 20px;
+}
+
+@media(max-width: 760){
+    .card{
+        border: 1px solid #aaa;
+        border-radius: 10px;
+        background-color: #eee;
+        overflow: hidden;
+        margin: 60px;
+    }
+}
+
+@media(min-width: 760px){
+    .con-empat{
+        width: 800px;
+        margin: 50px auto;
+        display: flex;
+    }
+    .card.besar{
+        transform: scale(1.12);
+    }
+    .card .header{
+        height: 150px;
+        background-color: #666;
+    }
 }
 /* Akhir Latihan 4 */
 
