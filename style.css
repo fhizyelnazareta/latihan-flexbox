@@ -130,3 +130,26 @@ body{
     padding-bottom: 20px;
 }
 /* Akhir Latihan 4 */
+
+/* Latihan 5 Centering Element */
+.con-lima{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid black;
+    display: flex;
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.kotak span{
+    margin: auto;
+}
